@@ -2,6 +2,8 @@ def find_element_index(array, value_to_find)
   array.each do |x|
     if value_to_find == x 
       return array.index(x)
+    else 
+      return nil
     end 
   end 
 end
