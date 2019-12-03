@@ -1,7 +1,9 @@
 def find_element_index(array, value_to_find)
   array.each do |x|
     if value_to_find == x 
-      return 
+      return array.index(x)
+    end 
+  end 
 end
 
 def find_max_value(array)
